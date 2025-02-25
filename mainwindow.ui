@@ -6,20 +6,98 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
+    <width>1000</width>
     <height>600</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>109</x>
+      <y>0</y>
+      <width>891</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="page"/>
+    <widget class="QWidget" name="page_2"/>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>81</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>学员信息</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>80</y>
+      <width>81</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>课程安排</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>160</y>
+      <width>81</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>财务</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>240</y>
+      <width>81</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>荣誉墙</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>320</y>
+      <width>81</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>系统设置</string>
+    </property>
+   </widget>
+  </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>1000</width>
      <height>21</height>
     </rect>
    </property>
